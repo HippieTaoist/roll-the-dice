@@ -5,3 +5,10 @@
 const ran = Math.random();
 
 console.log(ran);
+
+const diceRoll = (ran * 6);
+
+if (0 < diceRoll > 1) {
+    Math.ceil(diceRoll)
+    console.log(diceRoll);
+}
