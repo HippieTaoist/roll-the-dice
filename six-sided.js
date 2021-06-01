@@ -2,13 +2,44 @@
 
 // The challenge here is transforming the random decimal (between 0 and 0.99999999...) into a number that's either 1, 2, 3, 4, 5, or 6. To do this you'll need to do some multiplying and some `Math.floor()`ing (or `Math.ceil()`ing).
 
-const ran = Math.random();
+const randoSeed = Math.random();
 
-console.log(ran);
+console.log(randoSeed);
 
-const diceRoll = (ran * 6);
+const diceRoll = (randoSeed * 6);
+console.log(diceRoll);
 
-if (0 < diceRoll > 1) {
+if (diceRoll < 1) {
+
+    console.log(Math.ceil(diceRoll));
+} else if (1 <= diceRoll > 1.5) {
+    Math.floor(diceRoll)
+    console.log(Math.abs(diceRoll));
+} else if (1.5 <= diceRoll > 2) {
     Math.ceil(diceRoll)
-    console.log(diceRoll);
+    console.log(Math.abs(diceRoll));
+} else if (2 <= diceRoll < 2.5) {
+    Math.floor(diceRoll)
+    console.log(Math.abs(diceRoll));
+} else if (2.5 <= diceRoll < 3) {
+    Math.ceil(diceRoll)
+    console.log(Math.abs(diceRoll));
+} else if (3 <= diceRoll < 3.5) {
+    Math.floor(diceRoll)
+    console.log(Math.abs(diceRoll));
+} else if (3.5 <= diceRoll < 4) {
+    Math.ceil(diceRoll)
+    console.log(Math.abs(diceRoll));
+} else if (4 <= diceRoll < 4.5) {
+    Math.floor(diceRoll)
+    console.log(Math.abs(diceRoll));
+} else if (4.5 <= diceRoll < 5) {
+    Math.ceil(diceRoll)
+    console.log(Math.abs(diceRoll));
+} else if (5 <= diceRoll < 5.5) {
+    Math.floor(diceRoll)
+    console.log(Math.abs(diceRoll));
+} else if (5.5 <= diceRoll <= 6) {
+    Math.ceil(diceRoll)
+    console.log(Math.abs(diceRoll));
 }
