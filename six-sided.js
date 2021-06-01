@@ -13,33 +13,33 @@ if (diceRoll < 1) {
 
     console.log(Math.ceil(diceRoll));
 } else if (1 <= diceRoll > 1.5) {
-    Math.floor(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.floor(diceRoll));
 } else if (1.5 <= diceRoll > 2) {
-    Math.ceil(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.ceil(diceRoll));
 } else if (2 <= diceRoll < 2.5) {
-    Math.floor(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.floor(diceRoll));
 } else if (2.5 <= diceRoll < 3) {
-    Math.ceil(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.ceil(diceRoll));
 } else if (3 <= diceRoll < 3.5) {
-    Math.floor(diceRoll)
-    console.log(Math.abs(diceRoll));
-} else if (3.5 <= diceRoll < 4) {
-    Math.ceil(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.floor(diceRoll));
+} else if (3.5 >= diceRoll < 4) {
+
+    console.log(Math.ceil(diceRoll));
 } else if (4 <= diceRoll < 4.5) {
-    Math.floor(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.floor(diceRoll));
 } else if (4.5 <= diceRoll < 5) {
-    Math.ceil(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.ceil(diceRoll));
 } else if (5 <= diceRoll < 5.5) {
-    Math.floor(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.floor(diceRoll));
 } else if (5.5 <= diceRoll <= 6) {
-    Math.ceil(diceRoll)
-    console.log(Math.abs(diceRoll));
+
+    console.log(Math.ceil(diceRoll));
 }
