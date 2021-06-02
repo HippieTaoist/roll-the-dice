@@ -10,20 +10,20 @@ const diceRoll = (randoSeed * 6);
 console.log(diceRoll);
 
 if (diceRoll < 1) {
-
-    console.log(Math.ceil(diceRoll));
+    const inter = (Math.ceil(diceRoll));
+    console.log(inter);
 } else if (1 <= diceRoll > 1.5) {
 
     console.log(Math.floor(diceRoll));
 } else if (1.5 <= diceRoll > 2) {
-
-    console.log(Math.ceil(diceRoll));
+    const inter = (Math.ceil(diceRoll));
+    console.log(inter);
 } else if (2 <= diceRoll < 2.5) {
 
     console.log(Math.floor(diceRoll));
 } else if (2.5 <= diceRoll < 3) {
-
-    console.log(Math.ceil(diceRoll));
+    const inter = (Math.ceil(diceRoll));
+    console.log(inter);
 } else if (3 <= diceRoll < 3.5) {
 
     console.log(Math.floor(diceRoll));
